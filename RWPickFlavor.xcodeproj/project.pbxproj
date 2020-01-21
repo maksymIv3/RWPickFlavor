@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		3FC3844423D739D5004A2B56 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3843F23D739D5004A2B56 /* Models */; };
 		3FC3844523D739D5004A2B56 /* Categories in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3844023D739D5004A2B56 /* Categories */; };
 		3FC3844623D739D5004A2B56 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3844123D739D5004A2B56 /* Views */; };
-		DA8C0D31DB54EA50E2814C36 /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 783E1F4759AD59427BB8501D /* libPods-RWPickFlavor.a */; };
+		DA8C0D31DB54EA50E2814C36 /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 783E1F4759AD59427BB8501D /* libPods-RWPickFlavor.a */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -344,9 +344,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = maksym.RWPickFlavor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -369,9 +371,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = maksym.RWPickFlavor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
